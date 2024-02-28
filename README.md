@@ -1,13 +1,13 @@
-# Telegram Video Downloader Bot
+# Telegram Youtube Downloader Bot
 
-This repository contains a Telegram bot that allows users to download videos from YouTube directly through Telegram messages.
+This repository contains a Telegram bot that allows users to download videos and audio from YouTube directly through Telegram messages.
 
 ## Features:
 
 - Download videos in various resolutions (240p, 360p, 480p, 720p, 1080p)
+- Download audio in various qualities (Best, Medium, Low)
 - Automatic quality selection if the requested one is unavailable
-- Progress bar during the download
-- Clean and user-friendly interface
+<!-- - Progress bar during the download -->
 
 ## Requirements:
 
@@ -20,9 +20,9 @@ This repository contains a Telegram bot that allows users to download videos fro
 ## Installation:
 
 1. Clone this repository.
-2. Install the required libraries: `pip install pyTelegramBotAPI pytube`
+2. Install the required libraries: `pip install -r requirements.txt`
 3. Create a Telegram bot using the BotFather and obtain your bot token.
-4. Make a `.env` file using the `example.env` as example.
+4. Make a `.env` file using the `example.env` as an example.
 
 ## Usage:
 
